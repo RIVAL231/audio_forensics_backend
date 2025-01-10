@@ -46,4 +46,4 @@ jobs:
           docker pull rival231/audio_forensics:latest
           docker stop suspicious_aryabhata || true
           docker rm suspicious_aryabhata || true
-          docker run -d --name suspicious_aryabhata -p 8080:80 rival231/audio_forensics:latest
+          docker run -d --name audio_forensics -p 8080:80 rival231/audio_forensics:latest
