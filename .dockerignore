@@ -1,0 +1,11 @@
+# .dockerignore
+
+model.h5
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+myenv/
+dist/
+build/
+# Add other files/directories to ignore as needed
